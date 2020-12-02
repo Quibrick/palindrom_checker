@@ -1,4 +1,5 @@
 def main():
+    
     s = str(input('Please provide a word : '))
     str_len = len(s)
     pal = True
@@ -17,7 +18,6 @@ def main():
             print(alist)
         else:
             print('Not a palindrome')
-
 
 if __name__ == '__main__':
     main()
